@@ -1,0 +1,17 @@
+{
+  "name": "buba-global-integrated-company",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for BUBA GLOBAL INTEGRATED COMPANY with a secure price manager (Netlify Functions + Netlify Blobs).",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
